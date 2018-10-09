@@ -1,0 +1,22 @@
+{
+  "name": "grafana-hetzner-datasource",
+  "version": "1.0.0",
+  "description": "Grafana plugin datasource https://docs.hetzner.cloud/#servers-get-metrics-for-a-server",
+  "main": "heztner.api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbrian/grafana-hetzner-datasource.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbrian/grafana-hetzner-datasource/issues"
+  },
+  "homepage": "https://github.com/gbrian/grafana-hetzner-datasource#readme",
+  "dependencies": {
+    "r2": "^2.0.1"
+  }
+}
