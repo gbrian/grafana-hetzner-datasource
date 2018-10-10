@@ -2,7 +2,7 @@ const HetznerAPI = require('./heztner.api.js');
 
 var token = process.env.HETZNER_TOKEN;
 var settings = {
-  log: process.env.HETZNER_LOG||false,
+  log: process.env.HETZNER_LOG||false ? true: false,
   token: token||"",
   influxDB:{
     host: process.env.INFLUXDB_HOST||"",
